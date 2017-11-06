@@ -1,9 +1,9 @@
-package com.zhangyan.recycleviewdemo;
+package com.zhangyan.recycleviewdemo.adapter;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.support.v7.widget.LinearLayoutCompat;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;

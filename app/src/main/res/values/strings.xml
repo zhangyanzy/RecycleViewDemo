@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RecycleViewDemo</string>
+    <string name="add">增加</string>
+    <string name="check">切换</string>
 </resources>

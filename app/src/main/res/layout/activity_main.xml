@@ -11,10 +11,26 @@
 
     </data>
 
-    <android.support.constraint.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         tools:context="com.zhangyan.recycleviewdemo.MainActivity">
+
+        <Button
+            android:id="@+id/check_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/check"
+            android:onClick="@{presenter.onClick}" />
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="@string/add"
+            android:onClick="@{presenter.onClick}" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycle_view_main"
@@ -23,7 +39,7 @@
 
         </android.support.v7.widget.RecyclerView>
 
-    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
 
 
 </layout>
